@@ -160,7 +160,8 @@ plt.ylabel('True Label')
 plt.title('Confusion Matrix')
 plt.show()
 
-<img width="863" height="547" alt="knn" src="https://github.com/user-attachments/assets/90374237-9841-4831-b6d6-de6452d8a4a1" />
+<img width="640" height="547" alt="knn_confusion_matrix" src="https://github.com/user-attachments/assets/b6868211-02f5-4b5f-84f0-ca153e3f314f" />
+
 
 ### Test Predictions on New Sample Data Points
 ####  To see how our trained `KNeighborsClassifier` performs on individual, unseen data, we'll create a few hypothetical wine samples. It's crucial to remember that these new samples must have the same features and be scaled using the *same scaler* that was used for the training data.
